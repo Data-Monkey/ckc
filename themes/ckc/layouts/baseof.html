@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+      <div class="container text-center">
+  <header class="page-header header container-fluid">
+    {{ partial "header.html" . }}
+  </header>
+  <main>
+
+    {{ block "main" . }}{{ end }}
+
+
+  </main>
+  <footer>
+    {{ partial "footer.html" . }}
+  </footer>
+    </div>  
+  {{ partial "bootstrap/bootstrap_script.html" . }}  
+</body>
+</html>

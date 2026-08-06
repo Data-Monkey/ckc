@@ -1,0 +1,25 @@
+
+:root {
+    --green: #106b46;
+    --green-dark: #0b5638;
+    --text: #1a1a1a;
+    --light: #f7f7f7;
+    --border: #e5e5e5;
+
+    --ckc-brand: var(--green-dark);
+
+}
+
+
+
+.btn-brand {
+    background-color:var(--ckc-brand); /* Custom color */
+    color:var(--light);                 /* Text color */
+    accent-color:var(--green);        /* Accent color */
+}
+
+.navbar-brand {
+  color:var(--ckc-brand);
+  font-family: Inter, sans-serif;
+}
+
