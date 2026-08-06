@@ -1,6 +1,46 @@
 {{ define "main" }}
   {{ .Content }} 
 
-  hello world
+  
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="card text-start border-light" >
+        <div class="card-body">
+          <h6 class="card-subtitle mb-2 text-muted">One Card, More Places</h6>
+          <h3 class="card-title">The RFID that keeps <font style="color:var(--ckc-brand);">Australia</font> moving </h3>
+          <p class="card-text">One card, one tap. Access thousands of EV chargers accross Australia's leading networks.</p>
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <i class="bi bi-check-circle-fill" style="color:var(--ckc-brand);"></i>  Works with all major networks  
+              </div>
+              <div class="col">
+                <i class="bi bi-check-circle-fill" style="color:var(--ckc-brand);"></i>  No App, No Hassle, just tap and go  
+              </div>
+            </div> <!--/.row -->         
+            <div class="row">                 
+              <div class="col">
+                <i class="bi bi-check-circle-fill" style="color:var(--ckc-brand);"></i>  Even works without a mobile signal
+              </div>
+              <div class="col">
+                <i class="bi bi-check-circle-fill" style="color:var(--ckc-brand);"></i>  No more stacks of cards
+                <br><br>
+              </div>              
+            </div> <!--/.row -->     
+          </div> <!--/.container -->
+
+          <a href="/products/"> <button type="button" class="btn btn-brand" >Order Your RFID Card</button></a>
+          <a href="/networks/"> <button type="button" class="btn btn-brand-inverse">View Supported Networks</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <img src="/logo.png" alt="Logo" width="150" height="150" >
+    </div>
+  </div>
+</div>
+
+
 {{ end }}
 
